@@ -820,7 +820,7 @@ static NSString *const iRateMacAppStoreURLFormat = @"macappstore://itunes.apple.
         }
         
         self.visibleAlert = alert;
-        [self.visibleAlert show];
+        [alert show];
 #else
 
         //only show when main window is available
